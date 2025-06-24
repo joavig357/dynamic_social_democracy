@@ -267,7 +267,6 @@ if (Q.spd_campaign) {
         if (Q.z_ideology == "Right" && !Q.z_glaze_spd) {
             Q.spd_president_votes += (Q.z_normalized - Q.bvp_votes) * 0.8;
             Q.hindenburg_votes += (Q.z_normalized - Q.bvp_votes) * 0.2;
-            Q.center_president_crossover += (Q.z_normalized - Q.bvp_votes) * 0.2;
             if (Q.eckener_campaign) {
                 Q.spd_president_votes += (Q.z_normalized - Q.bvp_votes) * 0.1;
                 Q.hindenburg_votes -= (Q.z_normalized - Q.bvp_votes) * 0.1;
